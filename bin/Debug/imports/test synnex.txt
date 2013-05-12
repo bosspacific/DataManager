@@ -1,0 +1,7 @@
+﻿ItemName|ItemShortDescription|RetailPrice|Brand|Category|BLOCK_1|BLOCK_2|BLOCK_3|BLOCK_1_PRICE|BLOCK_2_PRICE|BLOCK_3_PRICE|M|S|B|P|Weight|Length|Width|Height
+006R01276|Toner Cartridge (20k pages), For WC4150|220.0000|Fuji-Xerox|TONER|20|40|999|162.1000|0|0|B         |B         |B         |B         |1.660|0|0|0
+008R12941|Staple Refills For WorkCentre 4150S/X and Phaser 5500|119.7900|Fuji-Xerox|OPTION PARTS|5|10|20|88.2700|88.2700|88.2700|B         |B         |B         |B         |0.500|3.400|25.100|15.200
+016168000|Phaser 780 Magenta Toner Cartridge (5900 print capacity)|352.8000|Fuji-Xerox|TONER|20|40|999|285.9500|285.9500|285.9500|B         |B         |B         |B         |0.490|0|0|0
+016187900|Cyan - 4000 pages TONNER FOR PHASER 7700|201.3600|Fuji-Xerox|TONER|20|40|999|163.2000|163.2000|163.2000|B         |B         |B         |B         |0.500|38.100|10.160|0
+016188000|Magenta - 4000 pages TONNER FOR PHASER 7700|201.3600|Fuji-Xerox|TONER|20|40|999|163.2000|163.2000|163.2000|B         |B         |B         |B         |0.500|38.100|10.160|0
+016188100|Yellow 4000 pages TONNER FOR PHASER 7700|201.3600|Fuji-Xerox|TONER|20|40|999|163.2000|163.2000|163.2000|B         |B         |B         |B         |0.500|38.100|10.160|0

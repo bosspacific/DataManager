@@ -1,0 +1,78 @@
+<html><head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>#TITLE#</title>
+<style type='text/css'>
+body,table,td, p, .normal{font-family:Arial,Verdana;font-size:12px;}
+body{margin:8px;padding:0;}td{padding:4px;}
+.item_header{background-color:#C9C9C9;color:#FFFFFF;font-weight:bold;}
+.item_row{background-color:#F0F1F1;}
+</style></head>
+<body>
+
+<table border="0" width="100%" >
+<tr>
+<td width="169" valign = "top"><img border="0" src="http://shop.bosspacific.com.au/bosslogo_print.jpg" width="169" height="100"></td>
+<td valign="top" align="center">
+	<table  width="100%">
+		<tr><td valign="bottom" align="center">#IMG_BARCODE#</td><tr>
+		<tr><td valign="top" align="center">#INVOICE_NO#</td></tr>
+		</table ></td>
+<td width="323" align="right"><b><font face="Arial" color="#808080">BOSS Pacific Information Systems Pty Ltd<br>Unit 1, 20-30 Stubbs St<br>Silverwater 2128<br>Sydney NSW Australia<br>Phone 02 9648 6655<br>Fax 02 9648 4030</font></b></td></tr>
+</table>
+<table border="0" width="100%" height="150">
+<tr><td valign="top" align="center"><b><font size="6" face="Arial">TAX INVOICE</font></b><hr width="80%" size="1" noshade color="#000000">
+<table border="0" width="100%" id="table3" height="90" ><tr><td width="10%">&nbsp;</td><td width="50%" valign = "top" align = "left">
+<font face="Arial" size="5"><b>SHIP TO:</b> </font> <br>&nbsp;<br/>
+#SHIP_TO#</td>
+<td width="40%" valign = "top" align = "left"><font face="Arial" size="5">
+<b>SOLD TO:</b> </font> <br>&nbsp;<br/>
+#SOLD_TO#
+</td>
+</tr></table>
+<hr noshade color="#000000" size="1">
+</td></tr></table>
+<table border=0 width="100%" height="40">
+<tr>
+<td width="120" align="left" valign="top" width=100><b>Payment Method</b></td><td valign="top" width=1><b>&nbsp;:&nbsp;</b></td><td valign="top">#PAYMENT_METHOD#</td>
+<td width="120" align="left" valign="top"><b>Customer PO</b></td><td><b>&nbsp;:&nbsp;</b></td><td>#CUSTOMER_PO#</td></tr>
+<tr>
+<td width="120" align="left" valign="top"><b>Tax Invoice Number</b></td><td valign="top" width=1><b>&nbsp;:&nbsp;<br /></td><td valign="top">#INVOICE_NO#</td>
+<td width="120" align="left" valign="top" width=100><b>Terms</b></td><td width=1><b>&nbsp;:&nbsp;</b></td><td valign="top">#TERMS#</td>
+<tr>
+<td width="120" align="left" valign="top"><b>Invoice Date</b></td><td width=1><b>&nbsp;:&nbsp;</b></td><td>#DATE_INVOICE#</td>
+<td width="120" align="left" valign="top"><b>Sales Person</b></td><td valign="top" width=1><b>&nbsp;:&nbsp;</b></td><td valign="top">#SALES_PERSON#</td></tr>
+</tr>
+ 
+</tr></table><br>
+<table border="0" width="100%">
+<tr>
+<td class=item_header width="5%" align=center>Qty</td>
+<td class=item_header width="30%" align=left>Products</td>
+<td class=item_header width="15%" align=left>Model</td>
+<td class=item_header width="5%" align=right>Tax</td>
+<td class=item_header width="10%" align=right>Price (ex)</td>
+<td class=item_header width="10%" align=right>Price (inc)</td>
+<td class=item_header width="10%" align=right>Total (ex)</td>
+<td class=item_header width="15%" align=right>Total (inc)</td>
+</tr>
+<!--DATA_ROWS-->
+</table>
+<br>
+<table border="0" width="100%" >
+<tr>
+<td valign=top width="40%"><table border="0" width="100%"  cellspacing=0 cellpadding=0>
+<tr><td>COMMENTS</td></tr> 
+<tr><td>#COMMENTS#</td></tr>
+</table>
+</td>
+<td  valign=top width="60%">
+<table border="0" width="100%" >
+<tr><td align=right>Sub-Total </td><td width=4>&nbsp;:&nbsp;</td><td align=right width=100>#SUB_TOTAL#</td></tr>
+<tr><td align=right valign=top>#DELIVERY_INFO# </td><td>&nbsp;:&nbsp;</td><td valign=top align=right>#DELIVERY_AMT#</td></tr>
+<tr><td align=right>#GST_INFO# </td><td>&nbsp;:&nbsp;</td><td align=right>#GST_AMT#</td></tr>
+<tr><td align=right>Total </td><td>&nbsp;:&nbsp;</td><td align=right>#TOTAL_AMT#</td></tr>
+</table>
+</td></tr>
+</table>
+</body></html>
